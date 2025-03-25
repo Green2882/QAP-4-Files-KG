@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New";
+}
+
+body {
+  background-color: white;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 1000px; /*will be removed later */
+  background-color: white;
+  border: 3px solid black;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.marinatable,
+th,
+td {
+  width: 450px;
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 7px;
+  margin: auto;
+}
+
+.marinatable .centertext {
+  text-align: center;
+}
+
+.marinatable .blackbar {
+  background-color: black;
+  height: 30px;
+}
+
+.marinatable .righttext {
+  text-align: right;
+  float: right;
+}
